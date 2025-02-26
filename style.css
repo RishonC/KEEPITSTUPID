@@ -26,6 +26,7 @@ body {
 .header_container {
     display:flex;
     justify-content: center;
+    height: 20rem;
 }
 
 .header_container h2 {
@@ -38,6 +39,19 @@ body {
 }
 
 .header_container img {
-margin-left: 5rem;
-scale: 0.2;
+margin-left: 1rem;
+scale: 0.7;
+}
+
+.index {
+    background: gray;
+}
+
+.index_container {
+    display:flex;
+    flex-direction: row;
+    gap: 1rem;
+    padding:1rem;
+    justify-content: center;
+    width: 100vw;
 }
