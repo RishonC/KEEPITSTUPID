@@ -1,0 +1,30 @@
+
+.index_container.a {
+    border-bottom-right-radius: 1rem;
+}
+
+.index_container.b {
+    border-bottom-left-radius: 1rem;
+}
+
+.index_container.expanded.a {
+    width: 100vw;  /* Expands to full screen width */
+    height: calc(100vh - 20rem);  /* Takes full height below the header */
+    position: fixed;  /* Fixed positioning */
+    top: 20rem;  /* Start just below the header */
+    background: black;
+    color: white;
+    z-index: 1000;
+    border-radius: 0;  /* Removes rounded corners */
+}
+
+.index_container.expanded.b {
+    width: 100vw;  /* Expands to full screen width */
+    height: calc(100vh - 20rem);  /* Takes full height below the header */
+    position: fixed;  /* Fixed positioning */
+    top: 20rem;  /* Start just below the header */
+    background: black;
+    color: white;
+    z-index: 1000;
+    border-radius: 0;  /* Removes rounded corners */
+}
