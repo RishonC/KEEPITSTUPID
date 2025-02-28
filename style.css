@@ -2,13 +2,18 @@
 body {
     margin:0;
     padding: 0;
+    height:100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 #header {
     background: black;
     width: 100vw;
     margin: 0 auto;
-    padding:5rem;
+    /* padding:5rem; */
     height:40rem;
 
     /* margin: 1rem; */
@@ -27,10 +32,11 @@ body {
     display:flex;
     justify-content: center;
     height: 20rem;
+    padding-top: 8rem;
 }
 
 .header_container h2 {
-    font-size: 3rem;
+    font-size: 4rem;
 }
 
 .header_container h3 {
@@ -40,13 +46,14 @@ body {
 
 .header_container img {
 margin-left: 1rem;
-scale: 0.7;
+scale: 1.2;
 }
 
 .index {
     display:flex;
     width:100vw;
     background: black;
+    padding-top: 2rem;
 }
 
 .index_container {
@@ -58,5 +65,26 @@ scale: 0.7;
     width: 100vw;
     /* border-top-right-radius: 1rem; */
     /* border-bottom-right-radius: 1rem; */
-    background: gray;
+    background: black;
+}
+
+.index_container a{
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 1rem;
+    display: inline-block; /* Allow transform to work */
+    transition: transform 0.3s, color 0.3s;
+
+}
+
+.index_container a:hover {
+    transform: scale(2); 
+    color: #ddd; 
+}
+
+.footer {
+    background: black;
+    color: aliceblue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 100vw;
 }
